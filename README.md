@@ -1,4 +1,4 @@
-# Phase 3 Project Guidelines
+<!-- # Phase 3 Project Guidelines
 
 ## Learning Goals
 
@@ -23,21 +23,21 @@ For this project, you must:
 - Have at least two models with a one-to-many relationship.
 - At a minimum, set up the following API routes in Sinatra:
   - create and read actions for both models
-  - full CRUD capability for one of the models: 
-  The update action should be implemented using a form that is 
-  pre-filled with existing values for the object. On submission of 
-  the form, the object should update. Note: Using a like button or 
+  - full CRUD capability for one of the models:
+  The update action should be implemented using a form that is
+  pre-filled with existing values for the object. On submission of
+  the form, the object should update. Note: Using a like button or
   similar will not meet the update requirement.
 - Build a separate React frontend application that interacts with the API to
   perform CRUD actions.
 - Implement proper front end state management. You should be updating state using a
-  setState function after receiving your response from a POST, PATCH, or DELETE 
-  request. You should NOT be relying on a GET request to update state. 
+  setState function after receiving your response from a POST, PATCH, or DELETE
+  request. You should NOT be relying on a GET request to update state.
 - Use good OO design patterns. You should have separate classes for each of your
-  models, and create instance and class methods as necessary. 
+  models, and create instance and class methods as necessary.
 - Routes in your application (both client side and back end) should follow RESTful
   conventions.
-- Use your back end optimally. Pass JSON for related associations to the front 
+- Use your back end optimally. Pass JSON for related associations to the front
   end from the back end. You should use active record methods in your controller to grab
   the needed data from your database and provide as JSON to the front end. You
   should NOT be relying on filtering front end state or a separate fetch request to
@@ -135,4 +135,42 @@ fetch("http://localhost:9292/test")
 [create repo]: https://docs.github.com/en/get-started/quickstart/create-a-repo
 [dbdiagram.io]: https://dbdiagram.io/
 [postman download]: https://www.postman.com/downloads/
-[network tab]: https://developer.chrome.com/docs/devtools/network/
+[network tab]: https://developer.chrome.com/docs/devtools/network/ -->
+
+
+# PROJECT-PHASE-3
+## Project Name
+* MUSIC LIBRARY
+
+# AUTHORS
+LYON BETT ,
+
+### REQUIREMENTS:
+REACT
+RUBY
+
+### DELIVERABLES
+* On the home page, you will see the search bar at the top of the page.
+
+* Enter a search term in the search bar to search for songs. The list of songs will be updated dynamically based on the search results.
+
+* The song list will display the title, year, duration, genre, and an image for each song. Scroll down to view more songs if the list exceeds the visible area.
+
+* Use the navigation links (Home, About, Contact) in the navbar to navigate to different sections of the application.
+
+
+### DESCRIPTION.
+* The Music Library project is a web application that allows users to search and browse a collection of songs.
+* It provides a user-friendly interface for searching songs by title or genre.
+* The project is built using React and utilizes API requests to fetch song data from a backend server.
+
+### FEATURES
+* Search songs: Users can search for songs by entering a search term in the search bar. The search will filter the songs based on the title or genre that matches the search term.
+
+* Song list: The application displays a list of songs with their details, including the title, year, duration, genre, and an image. The list is initially populated with all the songs from the backend server.
+
+### LIVE
+* http://localhost:3000/
+
+# LICENSE
+MIT License CopyRight(c) 2023 , LYON BETT
